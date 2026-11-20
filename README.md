@@ -50,7 +50,7 @@ pi remove git:github.com/bottomash/token-speed
 也可以只复制源码：
 
 ```text
-extensions/token-speed.ts → ~/.pi/agent/extensions/token-speed.ts
+extensions/index.ts → ~/.pi/agent/extensions/token-speed.ts
 ```
 
 ## License
