@@ -1,0 +1,35 @@
+{
+  "name": "@bottomash/pi-token-speed-rainbow",
+  "version": "1.0.0",
+  "description": "A lightweight rainbow-colored token speed indicator for Pi Coding Agent",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "token-speed",
+    "tokens-per-second",
+    "tps"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bottomash/token-speed.git"
+  },
+  "homepage": "https://github.com/bottomash/token-speed#readme",
+  "bugs": {
+    "url": "https://github.com/bottomash/token-speed/issues"
+  },
+  "files": [
+    "extensions",
+    "README.md",
+    "LICENSE"
+  ],
+  "pi": {
+    "extensions": [
+      "./extensions/token-speed.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}
